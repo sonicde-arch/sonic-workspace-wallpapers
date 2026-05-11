@@ -1,9 +1,9 @@
 # Maintainer: artist for Sonic-DE
 
 pkgname=sonic-workspace-wallpapers
-pkgver=6.6.3
+pkgver=6.6.4
 _dirver=$(echo $pkgver | cut -d. -f1-3)
-pkgrel=2
+pkgrel=1
 pkgdesc='Additional wallpapers for the Sonic Workspace'
 arch=(any)
 url='https://github.com/Sonic-DE/sonic-workspace-wallpapers'
@@ -25,5 +25,5 @@ package() {
   DESTDIR="$pkgdir" cmake --install build
 }
 
-sha256sums=('0f3f2b853cc0fb2bb0372bb1b255575e79821ccccb3c748db5dca3511f0ff386')
+sha256sums=('bb6d6a0a3fa7c8045dbc112087d3fc77e3fd6a1cf65a359ad80250a32cdc7cec')
 
