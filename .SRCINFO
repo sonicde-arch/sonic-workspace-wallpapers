@@ -1,6 +1,6 @@
 pkgbase = sonic-workspace-wallpapers
 	pkgdesc = Additional wallpapers for the Sonic Workspace
-	pkgver = 6.6.4
+	pkgver = 6.6.5
 	pkgrel = 1
 	url = https://github.com/Sonic-DE/sonic-workspace-wallpapers
 	arch = any
@@ -11,7 +11,7 @@ pkgbase = sonic-workspace-wallpapers
 	provides = plasma-workspace-wallpapers
 	conflicts = plasma-workspace-wallpapers
 	replaces = plasma-workspace-wallpapers
-	source = sonic-workspace-wallpapers-6.6.4.tar.gz::https://github.com/Sonic-DE/sonic-workspace-wallpapers/archive/refs/tags/6.6.4.tar.gz
-	sha256sums = bb6d6a0a3fa7c8045dbc112087d3fc77e3fd6a1cf65a359ad80250a32cdc7cec
+	source = sonic-workspace-wallpapers-6.6.5.tar.gz::https://github.com/Sonic-DE/sonic-workspace-wallpapers/archive/refs/tags/6.6.5.tar.gz
+	sha256sums = 0440c2f0719f10db3cbd7a163ad3830e8586f6e4158c128780e7b9814d0bf46e
 
 pkgname = sonic-workspace-wallpapers
