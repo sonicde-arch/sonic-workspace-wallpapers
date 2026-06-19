@@ -14,7 +14,7 @@ makedepends=(qt5-base sonic-frameworks-cmake-modules)
 provides=(plasma-workspace-wallpapers)
 conflicts=(plasma-workspace-wallpapers)
 groups=(sonicde)
-source=("$pkgname-$pkgver.tar.gz::${url}/archive/refs/tags/$pkgver.tar.gz")
+source=("$pkgname-$pkgver.tar.gz::${url}/archive/refs/tags/${pkgver}.tar.gz")
 sha256sums=('0440c2f0719f10db3cbd7a163ad3830e8586f6e4158c128780e7b9814d0bf46e')
 
 build() {
